@@ -1,15 +1,15 @@
 <p align="center">
-<a href="https://github.com/senaranya/HL7/actions"><img src="https://github.com/senaranya/hl7/actions/workflows/main_ci.yml/badge.svg?branch=master" alt="CI Status"></a>
-<a href="https://packagist.org/packages/aranyasen/hl7"><img src="https://poser.pugx.org/aranyasen/hl7/downloads" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/aranyasen/hl7"><img src="https://poser.pugx.org/aranyasen/hl7/v/stable" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/aranyasen/hl7"><img src="https://poser.pugx.org/aranyasen/hl7/license" alt="License"></a>
+<a href="https://github.com/lifetrenz/HL7/actions"><img src="https://github.com/lifetrenz/hl7/actions/workflows/main_ci.yml/badge.svg?branch=master" alt="CI Status"></a>
+<a href="https://packagist.org/packages/lifetrenz/hl7"><img src="https://poser.pugx.org/lifetrenz/hl7/downloads" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/lifetrenz/hl7"><img src="https://poser.pugx.org/lifetrenz/hl7/v/stable" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/lifetrenz/hl7"><img src="https://poser.pugx.org/lifetrenz/hl7/license" alt="License"></a>
 </p>
 
 **Important: Minimum supported PHP version has been updated to 8.0 <br>
 Last supported versions: <br>
--> PHP 7.0 or 7.1 => [1.5.4](https://github.com/senaranya/HL7/tree/1.5.4)<br>
--> PHP 7.2 => [2.0.2](https://github.com/senaranya/HL7/tree/2.0.2)<br>
--> PHP 7.4 => [2.1.7](https://github.com/senaranya/HL7/tree/2.1.7)**
+-> PHP 7.0 or 7.1 => [1.5.4](https://github.com/lifetrenz/HL7/tree/1.5.4)<br>
+-> PHP 7.2 => [2.0.2](https://github.com/lifetrenz/HL7/tree/2.0.2)<br>
+-> PHP 7.4 => [2.1.7](https://github.com/lifetrenz/HL7/tree/2.1.7)**
 
 ## Introduction
 
@@ -18,17 +18,17 @@ A PHP-based HL7 v2.x Parsing, Generation and Sending library, inspired from the 
 ## Installation
 
 ```bash
-composer require aranyasen/hl7
+composer require lifetrenz/hl7
 ```
 
 ## Usage
 ### Import library
 ```php
 // First, import classes from the library as needed...
-use Aranyasen\HL7; // HL7 factory class
-use Aranyasen\HL7\Message; // If Message is used
-use Aranyasen\HL7\Segment; // If Segment is used
-use Aranyasen\HL7\Segments\MSH; // If MSH is used
+use Lifetrenz\HL7; // HL7 factory class
+use Lifetrenz\HL7\Message; // If Message is used
+use Lifetrenz\HL7\Segment; // If Segment is used
+use Lifetrenz\HL7\Segments\MSH; // If MSH is used
 // ... and so on
 ```
 
@@ -199,7 +199,7 @@ All segment level getter/setter APIs can be used in two ways -
 `$pid->getPatientAddress(12)` -> Get patient address from 12th position  
 
 ### Issues
-Bug reports and feature requests can be submitted on the [Github Issue Tracker](https://github.com/senaranya/HL7/issues).
+Bug reports and feature requests can be submitted on the [Github Issue Tracker](https://github.com/lifetrenz/HL7/issues).
 
 ### Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md) for information.

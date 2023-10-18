@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Tests;
+namespace Lifetrenz\HL7\Tests;
 
-use Aranyasen\HL7\Segment;
+use Lifetrenz\HL7\Segment;
 use InvalidArgumentException;
 
 class SegmentTest extends TestCase

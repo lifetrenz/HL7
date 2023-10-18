@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Segments;
+namespace Lifetrenz\HL7\Segments;
 
-use Aranyasen\HL7\Segment;
+use Lifetrenz\HL7\Segment;
 
 /**
  * MSA: Message acknowledgement segment

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Tests\Segments;
+namespace Lifetrenz\HL7\Tests\Segments;
 
-use Aranyasen\HL7\Segments\MSH;
-use Aranyasen\HL7\Tests\TestCase;
+use Lifetrenz\HL7\Segments\MSH;
+use Lifetrenz\HL7\Tests\TestCase;
 use Exception;
 
 class MSHTest extends TestCase

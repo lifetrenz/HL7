@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Segments;
+namespace Lifetrenz\HL7\Segments;
 
-use Aranyasen\HL7\Segment;
+use Lifetrenz\HL7\Segment;
 
 /**
  * OBX segment class
@@ -105,7 +105,7 @@ class OBX extends Segment
 
     public function setDateTimeOfTheObservation($value, int $position = 14)
     {
-           return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setProducersId($value, int $position = 15)

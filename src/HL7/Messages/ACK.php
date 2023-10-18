@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Messages;
+namespace Lifetrenz\HL7\Messages;
 
-use Aranyasen\HL7\Message;
-use Aranyasen\HL7\Segments\MSA;
-use Aranyasen\HL7\Segments\MSH;
+use Lifetrenz\HL7\Message;
+use Lifetrenz\HL7\Segments\MSA;
+use Lifetrenz\HL7\Segments\MSH;
 use Exception;
 use InvalidArgumentException;
 

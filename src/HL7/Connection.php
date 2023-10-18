@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7;
+namespace Lifetrenz\HL7;
 
-use Aranyasen\Exceptions\HL7ConnectionException;
-use Aranyasen\Exceptions\HL7Exception;
+use Lifetrenz\Exceptions\HL7ConnectionException;
+use Lifetrenz\Exceptions\HL7Exception;
 use Exception;
 use Socket;
 

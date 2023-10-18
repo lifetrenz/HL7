@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Tests;
+namespace Lifetrenz\HL7\Tests;
 
-use Aranyasen\HL7\Message;
-use Aranyasen\HL7\Messages\ACK;
-use Aranyasen\HL7\Segments\MSH;
+use Lifetrenz\HL7\Message;
+use Lifetrenz\HL7\Messages\ACK;
+use Lifetrenz\HL7\Segments\MSH;
 use Exception;
 
 class AckTest extends TestCase

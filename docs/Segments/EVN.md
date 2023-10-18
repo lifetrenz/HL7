@@ -1,7 +1,8 @@
-# Lifetrenz\HL7\Segments\EQU  
+# Lifetrenz\HL7\Segments\EVN  
 
-EQU segment class
-Ref: https://www.interfaceware.com/hl7-standard/hl7-segment-EQU.html
+EVN segment class
+Ref: http://hl7-definition.caristix.com:9010/HL7%20v2.3.1/segment/EVN
+     https://corepointhealth.com/resource-center/hl7-resources/hl7-evn-event-type-segment
 
 
 
@@ -13,17 +14,18 @@ Lifetrenz\HL7\Segment
 
 | Name | Description |
 |------|-------------|
-|[getAlertLevel](#equgetalertlevel)||
-|[getEquipmentInstanceIdentifier](#equgetequipmentinstanceidentifier)||
-|[getEquipmentState](#equgetequipmentstate)||
-|[getEventDateTime](#equgeteventdatetime)||
-|[getLocalRemoteControlState](#equgetlocalremotecontrolstate)||
-|[resetIndex](#equresetindex)|Reset index of this segment|
-|[setAlertLevel](#equsetalertlevel)||
-|[setEquipmentInstanceIdentifier](#equsetequipmentinstanceidentifier)||
-|[setEquipmentState](#equsetequipmentstate)||
-|[setEventDateTime](#equseteventdatetime)||
-|[setLocalRemoteControlState](#equsetlocalremotecontrolstate)||
+|[getDateTimePlannedEvent](#evngetdatetimeplannedevent)||
+|[getEventOccurred](#evngeteventoccurred)||
+|[getEventReasonCode](#evngeteventreasoncode)||
+|[getEventTypeCode](#evngeteventtypecode)||
+|[getOperatorID](#evngetoperatorid)||
+|[getRecordedDateTime](#evngetrecordeddatetime)||
+|[setDateTimePlannedEvent](#evnsetdatetimeplannedevent)||
+|[setEventOccurred](#evnseteventoccurred)||
+|[setEventReasonCode](#evnseteventreasoncode)||
+|[setEventTypeCode](#evnseteventtypecode)||
+|[setOperatorID](#evnsetoperatorid)||
+|[setRecordedDateTime](#evnsetrecordeddatetime)||
 
 ## Inherited methods
 
@@ -39,12 +41,12 @@ Lifetrenz\HL7\Segment
 
 
 
-### EQU::getAlertLevel  
+### EVN::getDateTimePlannedEvent  
 
 **Description**
 
 ```php
- getAlertLevel (void)
+ getDateTimePlannedEvent (void)
 ```
 
  
@@ -63,12 +65,12 @@ Lifetrenz\HL7\Segment
 <hr />
 
 
-### EQU::getEquipmentInstanceIdentifier  
+### EVN::getEventOccurred  
 
 **Description**
 
 ```php
- getEquipmentInstanceIdentifier (void)
+ getEventOccurred (void)
 ```
 
  
@@ -87,12 +89,12 @@ Lifetrenz\HL7\Segment
 <hr />
 
 
-### EQU::getEquipmentState  
+### EVN::getEventReasonCode  
 
 **Description**
 
 ```php
- getEquipmentState (void)
+ getEventReasonCode (void)
 ```
 
  
@@ -111,12 +113,12 @@ Lifetrenz\HL7\Segment
 <hr />
 
 
-### EQU::getEventDateTime  
+### EVN::getEventTypeCode  
 
 **Description**
 
 ```php
- getEventDateTime (void)
+ getEventTypeCode (void)
 ```
 
  
@@ -135,12 +137,12 @@ Lifetrenz\HL7\Segment
 <hr />
 
 
-### EQU::getLocalRemoteControlState  
+### EVN::getOperatorID  
 
 **Description**
 
 ```php
- getLocalRemoteControlState (void)
+ getOperatorID (void)
 ```
 
  
@@ -159,36 +161,12 @@ Lifetrenz\HL7\Segment
 <hr />
 
 
-### EQU::resetIndex  
+### EVN::getRecordedDateTime  
 
 **Description**
 
 ```php
-public static resetIndex (void)
-```
-
-Reset index of this segment 
-
- 
-
-**Parameters**
-
-`This function has no parameters.`
-
-**Return Values**
-
-`void`
-
-
-<hr />
-
-
-### EQU::setAlertLevel  
-
-**Description**
-
-```php
- setAlertLevel (void)
+ getRecordedDateTime (void)
 ```
 
  
@@ -207,12 +185,12 @@ Reset index of this segment
 <hr />
 
 
-### EQU::setEquipmentInstanceIdentifier  
+### EVN::setDateTimePlannedEvent  
 
 **Description**
 
 ```php
- setEquipmentInstanceIdentifier (void)
+ setDateTimePlannedEvent (void)
 ```
 
  
@@ -231,12 +209,12 @@ Reset index of this segment
 <hr />
 
 
-### EQU::setEquipmentState  
+### EVN::setEventOccurred  
 
 **Description**
 
 ```php
- setEquipmentState (void)
+ setEventOccurred (void)
 ```
 
  
@@ -255,12 +233,12 @@ Reset index of this segment
 <hr />
 
 
-### EQU::setEventDateTime  
+### EVN::setEventReasonCode  
 
 **Description**
 
 ```php
- setEventDateTime (void)
+ setEventReasonCode (void)
 ```
 
  
@@ -279,12 +257,60 @@ Reset index of this segment
 <hr />
 
 
-### EQU::setLocalRemoteControlState  
+### EVN::setEventTypeCode  
 
 **Description**
 
 ```php
- setLocalRemoteControlState (void)
+ setEventTypeCode (void)
+```
+
+ 
+
+ 
+
+**Parameters**
+
+`This function has no parameters.`
+
+**Return Values**
+
+`void`
+
+
+<hr />
+
+
+### EVN::setOperatorID  
+
+**Description**
+
+```php
+ setOperatorID (void)
+```
+
+ 
+
+ 
+
+**Parameters**
+
+`This function has no parameters.`
+
+**Return Values**
+
+`void`
+
+
+<hr />
+
+
+### EVN::setRecordedDateTime  
+
+**Description**
+
+```php
+ setRecordedDateTime (void)
 ```
 
  

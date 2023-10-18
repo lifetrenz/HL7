@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Segments;
+namespace Lifetrenz\HL7\Segments;
 
-use Aranyasen\HL7\Segment;
+use Lifetrenz\HL7\Segment;
 
 /**
  * SCH segment class
@@ -20,127 +20,127 @@ class SCH extends Segment
 
     public function setPlacerAppointmentID($value, int $position = 1): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setFillerAppointmentID($value, int $position = 2): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setOccurrenceNumber($value, int $position = 3): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setPlacerGroupNumber($value, int $position = 4): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setScheduleID($value, int $position = 5): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setEventReason($value, int $position = 6): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setAppointmentReason($value, int $position = 7): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setAppointmentType($value, int $position = 8): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setAppointmentDuration($value, int $position = 9): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setAppointmentDurationUnits($value, int $position = 10): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setAppointmentTimingQuantity($value, int $position = 11): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setPlacerContactPerson($value, int $position = 12): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setPlacerContactPhoneNumber($value, int $position = 13): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setPlacerContactAddress($value, int $position = 14): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setPlacerContactLocation($value, int $position = 15): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setFillerContactPerson($value, int $position = 16): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setFillerContactPhoneNumber($value, int $position = 17): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setFillerContactAddress($value, int $position = 18): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setFillerContactLocation($value, int $position = 19): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setEnteredbyPerson($value, int $position = 20): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setEnteredbyPhoneNumber($value, int $position = 21): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setEnteredbyLocation($value, int $position = 22): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setParentPlacerAppointmentID($value, int $position = 23): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setParentFillerAppointmentID($value, int $position = 24): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function setFillerStatusCode($value, int $position = 25): bool
     {
-         return $this->setField($position, $value);
+        return $this->setField($position, $value);
     }
 
     public function getPlacerAppointmentID(int $position = 1)

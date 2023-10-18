@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Tests\Segments;
+namespace Lifetrenz\HL7\Tests\Segments;
 
-use Aranyasen\HL7\Message;
-use Aranyasen\HL7\Segments\NK1;
-use Aranyasen\HL7\Tests\TestCase;
+use Lifetrenz\HL7\Message;
+use Lifetrenz\HL7\Segments\NK1;
+use Lifetrenz\HL7\Tests\TestCase;
 
 class NK1Test extends TestCase
 {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Aranyasen\HL7\Tests\Segments;
+namespace Lifetrenz\HL7\Tests\Segments;
 
-use Aranyasen\Exceptions\HL7Exception;
-use Aranyasen\HL7\Message;
-use Aranyasen\HL7\Segments\PID;
-use Aranyasen\HL7\Tests\TestCase;
+use Lifetrenz\Exceptions\HL7Exception;
+use Lifetrenz\HL7\Message;
+use Lifetrenz\HL7\Segments\PID;
+use Lifetrenz\HL7\Tests\TestCase;
 use InvalidArgumentException;
 
 class PIDTest extends TestCase

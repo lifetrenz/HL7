@@ -1,4 +1,4 @@
-# Aranyasen\HL7\Segments\SAC  
+# Lifetrenz\HL7\Segments\SAC  
 
 SAC segment class
 Ref: https://www.interfaceware.com/hl7-standard/hl7-segment-SAC.html
@@ -7,7 +7,7 @@ Ref: https://www.interfaceware.com/hl7-standard/hl7-segment-SAC.html
 
 ## Extend:
 
-Aranyasen\HL7\Segment
+Lifetrenz\HL7\Segment
 
 ## Methods
 
@@ -108,6 +108,7 @@ Aranyasen\HL7\Segment
 | Name | Description |
 |------|-------------|
 |__construct|Create a segment.|
+|clearField|Remove any existing value from the field|
 |getField|Get the field at index.|
 |getFields|Get fields from a segment|
 |getName|Get the name of the segment. This is basically the value at index 0|
@@ -1177,7 +1178,7 @@ Aranyasen\HL7\Segment
 **Description**
 
 ```php
-public static resetIndex (int $index)
+public static resetIndex (void)
 ```
 
 Reset index of this segment 
@@ -1186,7 +1187,7 @@ Reset index of this segment
 
 **Parameters**
 
-* `(int) $index`
+`This function has no parameters.`
 
 **Return Values**
 
